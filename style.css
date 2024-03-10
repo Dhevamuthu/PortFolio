@@ -1,0 +1,162 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url("images/DHEVA_BG.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+    font-style: italic;
+    background-color: skyblue;
+
+}
+
+#certifications {
+    padding-bottom: 4rem;
+    background-color: bisque;
+
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* Styling for education */
+.container_Education {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+
+#Education {
+    background-color: lightgrey;
+    color: black;
+    flex-direction: column; /* Arrange items in a column */
+}
+.Education_items{
+    padding: 1rem 1rem; /* Adjust padding as needed */
+}
+#Education .Education_items p {
+    margin-bottom: 0.5rem; /* Add margin between paragraphs */
+}
+
+
+/* Add this CSS to your existing styles or create a new styles.css file */
+#skills,#projects,#Education{
+    max-width: 100%;
+}
+.skills{
+    background-color: bisque;
+    padding-bottom: 2rem;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+}
+
+.skill-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.skill-item img {
+    width: 80px; /* Adjust the image width as needed */
+}
+
+.skill-item p {
+    font-weight: bold;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
+.profiles-container {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+}
+
+.profiles-container img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Maintain aspect ratio */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.projects {
+    background-color: lightpink;
+    color: black;
+    padding-bottom: 4rem;
+}
+
+.project-item h3 {
+    color: white; /* Style the heading text color */
+}
+
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-twitter:hover,.fa-linkedin:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+.text-center{
+    text-decoration: underline;
+}
+.main-title {
+    padding-left: 20px; /* Adjust this value to increase/decrease space */
+}
+.collapse navbar-collapse .a{
+    color: #000000;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px; /* Adjust as needed */
+}
